@@ -28,6 +28,28 @@ The app uses Django views, forms, and templates, along with SQLite as the defaul
 - **Frontend**: HTML, CSS, Javascript
 - **Database**: SQLite (default Django DB)
 
+## Create & activate virtual environment (optional)
+
+python -m venv venv
+  # On Windows: venv\Scripts\activate
+  # On Mac : source venv/bin/activate
+
+## Apply migrations
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+## Run the development server
+
+python manage.py runserver
+
+Open your browser and go to: http://127.0.0.1:8000/
+
+## 📸 Screenshots
+
+![Screenshot 2025-06-23 085603](https://github.com/user-attachments/assets/ba439589-280f-40c2-8023-0714aa1e9c64)
+
 
 
 
